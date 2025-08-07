@@ -6,11 +6,21 @@ import db from "./config/db.js"
 import cookieParser from "cookie-parser";
 import route from "./routes/user.routes.js";
 
+
+
+
+import cors from 'cors';
+
 const app=express();
+
+
 const port=process.env.PORT||3000;
 
 db();
 app.use(express.json());
+
+app.use(cors());
+
 app.use(cookieParser());
 app.use(express.urlencoded({extended:true}))
 

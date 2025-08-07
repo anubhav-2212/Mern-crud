@@ -1,0 +1,57 @@
+* {
+    
+ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(214, 206, 196) /* or any color you like */
+}
+.container{
+    background-color: bisque;
+    padding: 50px 80px;
+    
+}
+.top-left-button{
+    margin-top: 20px;
+    background-color:rgb(26, 190, 163);
+    color: black;
+    border: none;
+    padding: 10px auto;
+    border-radius: 10px;
+}
+    
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 2px 20px;
+    
+    
+}
+.input-field{
+    background-color: aliceblue;
+     color: darkblue; 
+    margin-bottom: 20px;
+    border: none;
+    padding:5px 2px; 
+        
+}
+.label-field{
+    color: black;
+}
+.submit-btn{
+    color:black;
+    background-color: rgb(128, 175, 216);
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+
+}
+.heading{
+    color: darkcyan;
+    margin-top: 20px;
+}

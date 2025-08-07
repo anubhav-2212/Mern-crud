@@ -1,0 +1,56 @@
+body {
+    margin: 0; /* Remove default body margin */
+    min-height: 100vh; /* Make body at least the height of the screen */
+    display: flex;
+    justify-content: center; /* Horizontally center the child */
+    align-items: center;     /* Vertically center the child */
+    font-family: sans-serif;
+    background-color: #e8eef3; /* Optional: to see the page background */
+}
+
+.userTable {
+
+  width: 100%;
+  background-color: aliceblue;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  text-align: center;
+}
+
+.userTable table {
+  width: 60%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+.userTable table thead th {
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+}
+
+.userTable table tbody td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+}
+
+.actionButtons{
+    display: flex;
+
+
+    
+ 
+}
+.actionButtons button{
+     margin: 0 10px;
+     border: none;
+
+}
+.userTable .btn-primary{
+    padding:10px 40px;
+    text-align: center;
+
+}
